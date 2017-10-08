@@ -41,6 +41,6 @@ Particle.subscribe("Execute", messageParse, MY_DEVICES);
 
 but also link to your project's full code in this repository:  [photon.ino](photon.ino)
 
-** Wiring Diagram**
+**Wiring Diagram**
 
 ![Wiring Diagram](WiringDiagram.png)
