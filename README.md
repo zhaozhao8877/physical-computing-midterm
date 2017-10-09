@@ -8,18 +8,18 @@ Date:
 
 ### Conceptual Description
 
-/// Replace with a description of the ** *critical / conceptual dimensions of your project*,** with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
+/// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
 
 ### Form
 
-/// Your project should be embodied in a ** *physical form* ** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
+/// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
 Explain your design choices here and include images that document your project's material embodiment. ///
 
-** Finished Enclosure:**
+**Finished Enclosure:**
 
 ![Finished Enclosure](finished_enclosure.jpg)
 
-** Electronics Exposed:**
+**Electronics Exposed:**
 
 ![Enclosure with electronics exposed](exposed_enclosure.jpg)
 
