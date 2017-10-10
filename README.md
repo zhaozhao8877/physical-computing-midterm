@@ -1,10 +1,10 @@
 # Midterm IoT Project
 
-Name:  
+Name:  Yuchen Zhao
 
-Date:
+Date:  10/10/2017
 
-## Project: "Brand Name" or Device Name
+## Project: "Interactive Mini Stage"(individual project name); "Pikachu's Dream"(?)(Group project name)
 
 ### Conceptual Description
 
