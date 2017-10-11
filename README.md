@@ -19,7 +19,7 @@ Explain your design choices here and include images that document your project's
 
 **Finished Enclosure:**
 
-![Finished Enclosure](finished_enclosure.jpg)
+![Finished Enclosure](Capture.png)
 
 **Electronics Exposed:**
 
@@ -30,6 +30,14 @@ Explain your design choices here and include images that document your project's
 Here you should give an overview of the technical operation of your device, including:
 * A wiring diagram
 * list of hardware used
+  List of hardware I used:
+  1/ One Sparkfun Redboard
+  2/ One Arduino Uno
+  3/ PIR sensor
+  4/ LED
+  5/ servo motor
+  6/ potentionmeter
+  
 * Explanation of your
 * Link to code   
 
