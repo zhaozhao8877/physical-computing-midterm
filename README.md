@@ -66,7 +66,8 @@ You can include code snippets here:
   Serial.begin(9600);
 ```
 
-but also link to your project's full code in this repository:  [photon.ino](photon.ino)
+but also link to your project's full code in this repository:  
+[sever.ino](photon.ino)[PIR_COMMU.ino]
 
 **Wiring Diagram**
 
