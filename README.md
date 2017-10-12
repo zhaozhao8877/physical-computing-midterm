@@ -19,7 +19,7 @@ So for midterm, I will try to accomplish such two functions first,do a simple pr
 For the Midterm project, our group's work name is "Pikachu's Dream", which means Pikachu wants you to feed him when the sun rise, you can choose healthy or unhealthy food and then Pikachu will give you responds. (Please see you storytelling sketch)
 In my part, I used two boards, one is Arduino Uno+potentionmeter to control the servo motor, the other is Sparkfun to control the PIR sensor. At the beginning, the PIR will detect the sun rise and send  some information to the Email through IFTTT, then we could know “it’s Pika’s time to eat”, (then for Jo’s part), there are two buttons on the Pikachu’s body, one is represent healthy food, the other is unhealthy. When you press “healthy” button, the LED (on me) will turn on, if unhealthy food chosen, the light will turn off.
 
-![Wiring Diagram](Midterm_sketch.jpg)
+![Sketch](Midterm_sketch.jpg)
 
 **Finished Enclosure:**
 
@@ -70,5 +70,5 @@ but also link to your project's full code in this repository:  [photon.ino](phot
 
 **Wiring Diagram**
 
-![Wiring Diagram](writing_diagram1.png)
-![Wiring Diagram2](writing_diagram2.png)
+![Wiring Diagram](WritingDiagram1.png)
+![Wiring Diagram2](WritingDiagram2.png)
