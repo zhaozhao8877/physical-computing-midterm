@@ -14,8 +14,10 @@ Date:  10/10/2017
 　
 ### Form
 
-/// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
-Explain your design choices here and include images that document your project's material embodiment. ///
+My final project is about a mini interactive stage. The main function in this stage is to use servo motor to control some elements in the stage and use buttons to control the LED's color and pattern. 
+So for midterm, I will try to accomplish such two functions first,do a simple prototype to combine with my partern's work and then do some "communicating". 
+For the Midterm project, our group's work name is "Pikachu's Dream", which means Pikachu wants you to feed him when the sun rise, you can choose healthy or unhealthy food and then Pikachu will give you responds. (Please see you storytelling sketch)
+In my part, I used two boards, one is Arduino Uno+potentionmeter to control the servo motor, the other is Sparkfun to control the PIR sensor. At the beginning, the PIR will detect the sun rise and send  some information to the Email through IFTTT, then we could know “it’s Pika’s time to eat”, (then for Jo’s part), there are two buttons on the Pikachu’s body, one is represent healthy food, the other is unhealthy. When you press “healthy” button, the LED (on me) will turn on, if unhealthy food chosen, the light will turn off.
 
 **Finished Enclosure:**
 
@@ -23,7 +25,7 @@ Explain your design choices here and include images that document your project's
 
 **Electronics Exposed:**
 
-![Enclosure with electronics exposed](exposed_enclosure.jpg)
+![Enclosure with electronics exposed](exposed_enclosure2.jpg)
 
 ### Technical Details
 //   
@@ -39,6 +41,8 @@ Here you should give an overview of the technical operation of your device, incl
   6/ potentionmeter
   
 * Explanation of your
+For the peoject's explanation, please see the "FORM".
+For the "communicating" part, we did bothways. First, when PIR sensor detect the sun rise, it will “particle.publish()”and Jo will subscribe this then to send herself an Email(tell people Pikachu need to feed). Then people will press button on Pikachu and choose the food, then different button will trigger different things (LED turn on/ off) and then particle.publish(). Then my LED will particle.subscribe() these two buttons function and then turn on/off accordingly.
 * Link to code   
 
 //
@@ -46,11 +50,23 @@ Here you should give an overview of the technical operation of your device, incl
 You can include code snippets here:
 
 ```
-Particle.subscribe("Execute", messageParse, MY_DEVICES);
+
+  pinMode(PIRPPin, INPUT);
+  pinMode(LEDPin, OUTPUT);
+  
+  pinMode(LEDPin2,OUTPUT);
+  digitalWrite(LEDPin2,LOW);
+  
+  Particle.subscribe("pika", lightup,"57003a001251353338363333");
+  Particle.subscribe("pika2",lightdown,"57003a001251353338363333");
+  
+ 
+  Serial.begin(9600);
 ```
 
 but also link to your project's full code in this repository:  [photon.ino](photon.ino)
 
 **Wiring Diagram**
 
-![Wiring Diagram](WiringDiagram.png)
+![Wiring Diagram](writing diagram1.jpg)
+![Wiring Diagram2](writing diagram2.jpg)
