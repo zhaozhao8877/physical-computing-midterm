@@ -67,7 +67,7 @@ You can include code snippets here:
 ```
 
 but also link to your project's full code in this repository:  
-[sever.ino](photon.ino)[PIR_COMMU.ino]
+[sever.ino](photon.ino)[PIR_COMMU.ino](PIR_COMMU.ino)
 
 **Wiring Diagram**
 
