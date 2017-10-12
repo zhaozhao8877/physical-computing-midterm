@@ -68,5 +68,5 @@ but also link to your project's full code in this repository:  [photon.ino](phot
 
 **Wiring Diagram**
 
-![Wiring Diagram](writing diagram1.jpg)
-![Wiring Diagram2](writing diagram2.jpg)
+![Wiring Diagram](writing diagram1.png)
+*![Wiring Diagram2](writing diagram2.png)
